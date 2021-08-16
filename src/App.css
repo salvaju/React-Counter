@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  border: solid 5px palevioletred;
+  margin-top: 250px;
+  margin-right: 800px;
+  margin-left: 800px;
+  color: rgb(248, 107, 82)
 }
 
 .App-logo {
@@ -35,4 +40,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-image: url(https://preview.redd.it/eqe3y2bxowf61.png?auto=webp&s=0f5f003ef8f26f3e9599812fcdf68c04e8de8e89);
+  background-size: cover;
+}
+
+element.style {
+  margin-right: 700px;
+  padding-top: 0px;
+  margin-left: 700px;
 }

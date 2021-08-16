@@ -1,0 +1,14 @@
+.counter {
+    margin: 15px;
+}
+
+button {
+    color: indigo;
+    background-color: lightcoral;
+    margin: 6px;
+    padding: 7px;
+}
+
+.number {
+    color: palevioletred;
+}
