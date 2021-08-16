@@ -1,11 +1,11 @@
 import React from "react";
 import Counter from "./Counter";
 
-function CounterGroup() {
+function CounterGroup(props) {
    const counterList = generateCounterList();
 
    function generateCounterList() {
-    return new Array(5).fill(Date.now());
+    return new Array(props.counterSize).fill(Date.now());
 }
 
     return(
